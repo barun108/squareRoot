@@ -48,4 +48,23 @@ function getRoot(n) {
 
 console.log(getRoot(529));
 
+// Showing result to HTML file
+
+let b = document.getElementById("btn");
+
+b.addEventListener('click', showResult);
+
+function showResult() {
+            let p = document.getElementById("p1");
+    let t = document.getElementById("inp1").value;
+    if(parseInt(t)) {
+        let r = getRoot(parseInt(t))
+        if (r !== 1) {
+            p.textContent = "Root is : " + r;
+        } else {
+            p.textContent = "Root not possible"
+        }
+    }
+}
+
 
