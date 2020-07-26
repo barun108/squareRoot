@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #222;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main {
+    background-color: #555;
+    max-width: 60%;
+    margin: 30px auto 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.main > p {
+    padding: .5rem;
+    color: coral;
+}
+
+.main > button {
+    font-weight: 900;
+    color: seagreen;
+}
